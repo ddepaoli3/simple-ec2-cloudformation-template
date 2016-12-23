@@ -1,0 +1,26 @@
+[
+  {
+    "ParameterKey": "VpcId",
+    "ParameterValue": "vpc-aac8f2c3"
+  },
+  {
+    "ParameterKey": "SubnetId",
+    "ParameterValue": "subnet-2dc83d45"
+  },
+  {
+    "ParameterKey": "InstanceName",
+    "ParameterValue": "ec2-instance"
+  },
+  {
+    "ParameterKey": "SshCidrAllow",
+    "ParameterValue": "0.0.0.0/0"
+  },
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t2.large"
+  },
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "key-name"
+  }
+]
