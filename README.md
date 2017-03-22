@@ -6,5 +6,5 @@ By default the script create ubuntu 16.04, but changing the AMI it's possible to
 
 # How to run
 ```
-aws cloudformation create-stack --profile profile-nam,e --stack-name stack-name --template-body file://ec2.yml --parameters file://ec2-parameters.json --region eu-central-1 --capabilities CAPABILITY_IAM
+aws cloudformation create-stack --profile profile-name --stack-name stack-name --template-body file://ec2.yml --parameters file://ec2-parameters.json --region eu-central-1 --capabilities CAPABILITY_IAM
 ```
